@@ -3,11 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/styles/styles.css">
+
+    <!-- Bootstrap Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>MS Console</title>
 </head>
 <body>
-    <h1>
-        MS Console
-    </h1>
+    <div class="container-fluid vh-100 p-0">
+        <div class="row h-100 g-0">
+            <div class="col-md-6 image-section d-flex align-items-center p-0 position-relative">
+                <img src="assets/images/bg-img.jpeg" alt="Description of image" class="img-fluid w-100 h-100">
+                <div class="overlay-text position-absolute text-white ps-4 mb-5">
+                    <h1 class="">MorganServer Console</h1>
+                    <div class="mt-3"></div>
+                    <div class="border-header"></div>
+                    <div class="fixed-bottom">
+                        <p class="ps-4">
+                            <a href="core/privacy-policy/" class="text-decoration-none text-white">Privacy Policy</a><br>
+                            &copy; 2024 MorganServer. All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 form-section d-flex justify-content-center align-items-center">
+                <div class="card" style="border: none; width: 70%;">
+                    <div class="card-body p-4">
+                        <h1 class="card-title" style="font-size: 26px; color: rgb(18,48,67);">Login</h1>
+                        <p style="font-size: 18px;">Enter your email to continue.</p>
+                        <div class="pb-2"></div>
+                        <form action="your-login-action" method="post">
+                            <div class="mb-3">
+                                <label for="username" class="form-label text-uppercase fw-semibold" style="font-size: 12px;">email</label>
+                                <input type="text" id="username" name="username" class="form-control" required>
+                            </div>
+                            <!-- <div class="mb-3">
+                                <label for="password" class="form-label">Password:</label>
+                                <input type="password" id="password" name="password" class="form-control" required>
+                            </div> -->
+                    </div>
+                    <div class="card-footer text-muted" style="border: none; background-color: rgb(239,239,239);">
+                        <button type="submit" class="btn btn-primary float-end m-2" style="background-color: rgb(18, 48, 67); border-color: rgb(18, 48, 67);">Continue</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
